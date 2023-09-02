@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+    <configuration default="false" name=":+runClient Minecraft Client" factoryName="Application" type="Application">
+        <option name="ALTERNATIVE_JRE_PATH" value="/usr/lib/jvm/java-17-openjdk"></option>
+        <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true"></option>
+        <envs></envs>
+        <option name="MAIN_CLASS_NAME" value="net.fabricmc.loader.impl.launch.knot.KnotClient"></option>
+        <module name="OmniView.client"></module>
+        <option name="PROGRAM_PARAMETERS" value="--username Dev --version 1.19.4 --gameDir /mnt/d422463e-6d7f-42b2-b45d-50ba56464d4b/Projects/OmniSpec/run/client --assetsDir /mnt/d422463e-6d7f-42b2-b45d-50ba56464d4b/Projects/OmniSpec/build/unimined/fakeglobal/assets --assetIndex 3 --accessToken 0 --clientId 0 --xuid ${auth_xuid} --userType msa --versionType release"></option>
+        <option name="VM_PARAMETERS" value="-Xmx2G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M -Djava.library.path=/mnt/d422463e-6d7f-42b2-b45d-50ba56464d4b/Projects/OmniSpec/run/client/natives -Dminecraft.launcher.brand=UniminedDev -Dminecraft.launcher.version=1.0.0 -Dfabric.development=true &quot;-Dfabric.remapClasspathFile=/mnt/d422463e-6d7f-42b2-b45d-50ba56464d4b/Projects/OmniSpec/build/unimined/clientRemapClasspath.txt&quot;"></option>
+        <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run/client"></option>
+        <method v="2">
+            <option name="Make" enabled="true"></option>
+            <option scriptParameters="" name="Gradle.BeforeRunTask" externalProjectPath="$PROJECT_DIR$/" vmOptions="" enabled="true" tasks="clientPreRunClient"></option>
+        </method>
+    </configuration>
+</component>
